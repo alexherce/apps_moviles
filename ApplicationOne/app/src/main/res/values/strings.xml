@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ApplicationOne</string>
+    <string name="title_activity_actividad2">Actividad2</string>
+    <string name="title_activity_actividad3">Actividad3</string>
+    <string name="title_activity_actividad4">Actividad4</string>
+
+    <string name="title_activity_video_splash">VideoSplash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

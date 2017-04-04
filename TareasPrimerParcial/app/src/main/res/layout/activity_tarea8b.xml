@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tarea8b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.herce.tareasprimerparcial.Tarea8B">
+
+    <TextView
+        android:text="Ejemplos de componentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:text="Toggle Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/toggleButton"
+        android:textOff="Toggle Btn Off"
+        android:textOn="Toggle Btn On"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:text="CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/toggleButton"
+        android:layout_alignParentStart="true" />
+
+    <RadioButton
+        android:text="RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/radioButton" />
+
+    <CheckedTextView
+        android:text="CheckedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/checkedTextView"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Seek Bars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+
+    <QuickContactBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/colorAccent"
+        android:id="@+id/quickContactBadge"
+        android:contentDescription="Whaat"
+        android:layout_below="@+id/seekBar2"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="25dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/seekBar"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignEnd="@+id/toggleButton" />
+
+    <SeekBar
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="3"
+        android:id="@+id/seekBar2"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginStart="14dp" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/spinner"
+        android:layout_toEndOf="@+id/quickContactBadge" />
+
+    <Switch
+        android:text="Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_toEndOf="@+id/progressBar"
+        android:layout_marginBottom="10dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:numStars="3"
+        android:rating="2"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/quickContactBadge" />
+
+    <TextView
+        android:text="Progress Bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/spinner"
+        android:layout_toEndOf="@+id/radioButton" />
+
+    <TextView
+        android:text="Quick Contact Card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/quickContactBadge"
+        android:layout_toStartOf="@+id/textView4" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignStart="@+id/seekBar2" />
+
+    <Button
+        android:text="Ejemplos de TextFields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textfieldsBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_light"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:elevation="6dp"
+        android:layout_toEndOf="@+id/toggleButton"
+        android:layout_alignStart="@+id/textView4" />
+</RelativeLayout>

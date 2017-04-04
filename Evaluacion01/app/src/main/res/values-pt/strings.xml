@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Primeira Avaliação Parcial</string>
+  <string name="action_go_to_health">Ir a minha saúde</string>
+  <string name="action_go_to_results">Ir os meus resultados</string>
+  <string name="hint_password">Senha</string>
+  <string name="hint_username">Nome de usuário</string>
+  <string name="key_bmi">IMC:</string>
+  <string name="key_weight">Peso:</string>
+  <string name="title_descripcion">Descrição</string>
+  <string name="title_diagnostics_and_treatments">Diagnóstico e tratamento</string>
+  <string name="title_fecha">Data</string>
+  <string name="title_log_in">Entrar</string>
+  <string name="title_welcome">Bem vindo</string>
+  <string name="section_diagnosis">Diagnóstico</string>
+  <string name="section_treatment">Tratamento</string>
+  <string name="section_description" >Descrição</string>
+  <string name="section_observations" >Observações</string>
+  <string name="title_notapplied">Não aplicado</string>
+  <string name="title_medical_activities" >Atividades Médicas</string>
+  <string name="text_welcome">Bem-vindo</string>
+  <string name="text_loggingin">Efetuando login</string>
+  <string name="text_wrong_credentials">Usuário ou senha incorretos</string>
+</resources>

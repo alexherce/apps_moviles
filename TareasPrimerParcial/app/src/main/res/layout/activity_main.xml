@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.herce.tareasprimerparcial.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usa los botones para acceder a la tarea."
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Las tareas 1 y 6 estan incorporadas en esta aplicacion."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Tarea 3: Intentos para navegacion entre actividades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tarea3"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/tarea4"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:text="Tarea 4: Llamadas telefonicas"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tarea4"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/tarea5"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:text="Tarea 5: Intentos y llamadas al sistema"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tarea5"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/tarea7"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_green_light" />
+
+    <Button
+        android:text="Tarea 7: Splash Video"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tarea7"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_orange_light" />
+
+    <Button
+        android:text="Tarea 8A: Imagen usando Volley"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tarea8"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_red_light" />
+
+    <Button
+        android:text="Tarea 8B: Componentes"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tarea8b"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_purple" />
+
+</LinearLayout>

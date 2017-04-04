@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Evaluacion Primer Parcial</string>
+    <string name="title_fecha">FECHA</string>
+    <string name="title_descripcion">DESCRIPCION</string>
+    <string name="title_hashtag" translatable="false">#</string>
+    <string name="title_diagnostics_and_treatments">Diagnosticos y Tratamientos</string>
+    <string name="title_log_in">Log in</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="title_welcome">Welcome!</string>
+    <string name="action_go_to_health">Go to health</string>
+    <string name="action_go_to_results">Go to results</string>
+    <string name="key_bmi">BMI:</string>
+    <string name="key_weight">Peso:</string>
+    <string name="section_diagnosis">Diagnosis</string>
+    <string name="section_treatment">Treatment</string>
+    <string name="section_description" >Description</string>
+    <string name="section_observations" >Observations</string>
+    <string name="title_notapplied" >Not Applied</string>
+    <string name="title_medical_activities" >Medical Activities</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="text_loggingin">Logging in...</string>
+    <string name="text_wrong_credentials">Incorrect username or password</string>
+</resources>

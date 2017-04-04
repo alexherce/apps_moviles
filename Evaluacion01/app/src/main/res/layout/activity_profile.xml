@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    tools:context="com.example.aag.eval_01.ProfileActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:weightSum="3.1">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView3" />
+
+    <Space android:layout_height="match_parent"
+        android:layout_weight="0.05"
+        android:layout_width="10dp" />
+
+    <Button
+        android:id="@+id/buttonHealth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/action_go_to_health"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_alignBaseline="@+id/buttonResults"
+        android:layout_alignBottom="@+id/buttonResults"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@android:color/holo_green_light" />
+
+    <Space android:layout_height="match_parent"
+        android:layout_weight="0.05"
+        android:layout_width="10dp" />
+
+    <Button
+        android:id="@+id/buttonResults"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/action_go_to_results"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_below="@+id/textNombre"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@android:color/holo_orange_light" />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/Welcome"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center"
+      android:text="@string/title_welcome"
+      android:textSize="30sp" />
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+      <TextView
+          android:id="@+id/textNombre"
+          tools:text="Jorge Hernandez"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/Welcome"
+          android:layout_gravity="center"
+          android:layout_weight="1"
+          android:textAlignment="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+  </TableLayout>
+
+</LinearLayout>

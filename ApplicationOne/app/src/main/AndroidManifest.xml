@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herce.applicationone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActividadPrincipal" />
+        <activity
+            android:name=".Actividad2"
+            android:label="@string/title_activity_actividad2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Actividad3"
+            android:label="@string/title_activity_actividad3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Actividad4"
+            android:label="@string/title_activity_actividad4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VideoSplash"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+    </application>
+
+</manifest>

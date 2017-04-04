@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tarea5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.herce.tareasprimerparcial.Tarea5">
+
+    <Button
+        android:text="Answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
+        android:id="@+id/answer" />
+
+    <Button
+        android:text="Call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answer"
+        android:layout_alignRight="@+id/answer"
+        android:layout_alignEnd="@+id/answer"
+        android:layout_marginTop="20dp"
+        android:id="@+id/call" />
+
+    <Button
+        android:text="Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/call"
+        android:layout_alignRight="@+id/call"
+        android:layout_alignEnd="@+id/call"
+        android:layout_marginTop="29dp"
+        android:id="@+id/delete" />
+
+    <Button
+        android:text="Dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delete"
+        android:layout_alignLeft="@+id/delete"
+        android:layout_alignStart="@+id/delete"
+        android:layout_marginTop="26dp"
+        android:id="@+id/dial" />
+
+    <Button
+        android:text="Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dial"
+        android:layout_alignLeft="@+id/dial"
+        android:layout_alignStart="@+id/dial"
+        android:layout_marginTop="22dp"
+        android:id="@+id/edit" />
+
+    <Button
+        android:text="Insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_alignLeft="@+id/edit"
+        android:layout_alignStart="@+id/edit"
+        android:layout_marginTop="23dp"
+        android:id="@+id/insert" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/call"
+        android:layout_alignLeft="@+id/pick"
+        android:layout_alignStart="@+id/pick"
+        android:id="@+id/search" />
+
+    <Button
+        android:text="Send To"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/delete"
+        android:layout_alignRight="@+id/search"
+        android:layout_alignEnd="@+id/search"
+        android:id="@+id/sendto" />
+
+    <Button
+        android:text="View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/dial"
+        android:layout_alignRight="@+id/sendto"
+        android:layout_alignEnd="@+id/sendto"
+        android:id="@+id/view" />
+
+    <Button
+        android:text="Pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="68dp"
+        android:layout_marginEnd="31dp"
+        android:id="@+id/pick"
+        android:layout_alignBaseline="@+id/answer"
+        android:layout_alignBottom="@+id/answer"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Web Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/websearch"
+        android:layout_alignTop="@+id/edit"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp" />
+
+</RelativeLayout>
