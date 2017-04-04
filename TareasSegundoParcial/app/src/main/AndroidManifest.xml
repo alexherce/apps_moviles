@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herce.tareassegundoparcial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Red">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tarea1Activity" />
+        <activity android:name=".Tarea2Activity" />
+        <activity android:name=".Tarea3Activity" />
+        <activity android:name=".Tarea4Activity" />
+        <activity android:name=".Tarea5Activity" />
+        <activity android:name=".Tarea6Activity" />
+        <activity android:name=".Tarea7Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.herce.tareassegundoparcial.MainActivity">
+
+    <Button
+        android:id="@+id/button_hmwk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 1" />
+
+    <Button
+        android:id="@+id/button_hmwk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 2" />
+
+    <Button
+        android:id="@+id/button_hmwk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 3" />
+
+    <Button
+        android:id="@+id/button_hmwk4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 4" />
+
+    <Button
+        android:id="@+id/button_hmwk5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 5" />
+
+    <Button
+        android:id="@+id/button_hmwk6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 6" />
+
+    <Button
+        android:id="@+id/button_hmwk7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarea 7" />
+</LinearLayout>
